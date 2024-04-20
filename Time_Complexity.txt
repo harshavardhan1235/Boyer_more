@@ -1,0 +1,5 @@
+The time complexity of the Boyer-Moore algorithm for string searching is typically expressed in terms of the average-case performance. In the average case, the algorithm has a linear time complexity of O(n/m), where n is the length of the text and m is the length of the pattern.
+
+However, it's important to note that the worst-case time complexity of the Boyer-Moore algorithm can be O(n*m) in some scenarios, particularly when there are many occurrences of the pattern within the text and the pattern is chosen such that it aligns with the text in a way that causes maximum comparisons at each position.
+
+The space complexity of the Boyer-Moore algorithm is O(k), where k is the size of the bad character array, which is typically a constant value (256 in this case).
