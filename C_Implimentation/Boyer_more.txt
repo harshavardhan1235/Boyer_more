@@ -1,0 +1,3 @@
+Text: ABAAABCD
+Pattern: ABC
+Pattern occurs at shift = 4
